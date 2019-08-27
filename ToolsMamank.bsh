@@ -1,0 +1,90 @@
+#!/bin/bash
+
+clear
+sleep 1
+echo "Loading......." | lolcat
+sleep 1
+clear 
+echo " Kamu Akan di Larikan Ke Tools nya BIO00000" | lolcat
+sleep 1
+echo " Dalam Hitungan 1-3" | lolcat
+sleep 2
+echo "3" | lolcat
+sleep 1
+echo "2" | lolcat
+sleep 1
+echo "1" | lolcat
+sleep 1
+clear
+echo "Welcome :) " | lolcat
+sleep 2
+clear
+figlet "BIO00000" | lolcat
+echo "==================================================
+NAMA : BIO00000
+TEAM  : MrTamfanX Cyber Team
+No Hp  : 0857xxxxxxxx
+Pesan  : Jangan Di Salah Gunakan!!!
+=====================================================
+
+######################################
+# CTRL + C
+######################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo "[#] Jangan Di Salah Gunakan Bambank [#]" | lolcat
+echo "[#] SAMPAI JUMPA LAGI[#] | lolcat
+sleep 2
+exit
+}
+
+echo ""
+lagi 1
+while [$lagi -it 3]
+echo ""
+echo "1.[+]Bikin Sc Depes By BIO00000[+] | lolcat
+echo "#################################" | lolcat
+echo "2.[+]Sms By MrTamfanX | lolcat
+echo "#################################" | lolcat
+echo "3.[+]Hack Fb Brutforce by Pashayogi | lolcat
+echo "#################################" | lolcat
+echo "00.[+]Exit[+] | lolcat
+echo ""
+read -p "Pilih Nomor :" pill; | lolcat
+case $pill in
+1)clear
+git clone https://github.com/Bio00000/BikinScDepes
+cd BikinScDepes
+python2 BikinScDepes.py
+
+;;
+
+2)clear
+git clone https://github.com/MrTamfanX/smsbosakas
+cd bosakas
+ls
+chmod +x *
+python smsbosakas.py
+
+;;
+
+3)clear
+git clone https://github.com/pashayogi/SETAN
+cd SETAN
+pip install requests
+pip2 install requests
+python2 SETAN.py
+
+;;
+
+00)clear
+echo "BIO00000"
+exit
+
+;;
+
+esac
+done 
+done
+
