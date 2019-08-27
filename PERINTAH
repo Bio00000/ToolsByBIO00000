@@ -1,7 +1,0 @@
-pkg update && pkg upgrade
-pkg install git
-git clone https://github.com/Bio00000/ToolsByBIO00000
-cd ToolsByBIO00000
-ls
-chmod +x *
-sh 
